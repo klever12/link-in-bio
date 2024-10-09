@@ -2,12 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    
     <title>link-in-bio</title>
+    
     <style>
-      /* 
+       
       * {
         border: 1px red dashed;
-      } */
+      } 
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      .avatar-image {
+        height: 128px;
+        width: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+
     </style>
   </head>
 
@@ -15,7 +36,7 @@
     <div class="main-container">
 
       <div class="image-row"> 
-      <img src="/images/meerkat.jpeg" alt="meerkat picture">
+      <img class="avatar-image" src="/images/meerkat.jpeg" alt="meerkat picture">
       </div>
 
       <div class="name-row">
@@ -45,7 +66,7 @@
       <div class="links-row">
 
         <div class="links-item">   
-          <img src="images/chicago.jpg" alt="Millennium Park in Chicago">
+          <img class="thumbnail" src="images/chicago.jpg" alt="Millennium Park in Chicago">
           
           <a href="https://www.chicago.gov/city/en/depts/dca/supp_info/millennium_park.html" target="_blank">
             Chicago
@@ -53,7 +74,7 @@
         </div>
 
         <div class="links-item">
-          <img src="images/soccer_ball.jpg" alt="soccer ball"> 
+          <img class="thumbnail" src="images/soccer_ball.jpg" alt="soccer ball"> 
 
           <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026" target="_blank">
             Soccer
@@ -61,7 +82,7 @@
         </div>
 
         <div class="links-item">
-          <img src="images/man_united.jpg" alt="Old Trafford Football Stadium">
+          <img class="thumbnail" src="images/man_united.jpg" alt="Old Trafford Football Stadium">
 
           <a href="https://www.manutd.com/" target="_blank">
             Manchester United
